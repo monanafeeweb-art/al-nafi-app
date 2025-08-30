@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تنزيل تطبيق Al Nafi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        body {
+            background-color: #149142;
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .logo {
+            margin-bottom: 40px;
+            max-width: 100%;
+        }
+        
+        .logo-placeholder {
+            width: 180px;
+            height: 180px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+            font-size: 40px;
+        }
+        
+        .logo-text {
+            font-size: 42px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        .logo-subtext {
+            font-size: 22px;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background-color: white;
+            color: #149142;
+            padding: 18px 50px;
+            font-size: 24px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 50px;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+        }
+        
+        .download-btn i {
+            margin-left: 10px;
+        }
+        
+        .app-size {
+            font-size: 18px;
+            margin-top: 15px;
+            opacity: 0.9;
+        }
+        
+        .note {
+            margin-top: 30px;
+            font-size: 16px;
+            opacity: 0.8;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="logo-placeholder">
+            <!-- سيتم استبدال هذا باللوجو الفعلي -->
+            <span><img src="favicon.png>"</span>
+        </div>
+        <div class="logo-text">AL NAFI</div>
+        <div class="logo-subtext">Natural Products & Oils</div>
+    </div>
+    
+    <a href="AlNafiApp.apk" class="download-btn">
+        <i class="fas fa-download"></i> تنزيل التطبيق
+    </a>
+    
+    <div class="app-size">الحجم: 5.0 ميجابايت</div>
+    
+    <div class="note">
+        هذا التطبيق متاح للتنزيل المباشر ولا يتطلب استخدام متجر جوجل بلاي
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
